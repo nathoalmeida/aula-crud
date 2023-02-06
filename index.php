@@ -51,13 +51,16 @@
 <?php
 
     include("config.php");
-    
+
         switch(@$_REQUEST["page"]) {
             case "novo":
                 include("novo-usuario.php");
                 break;
             case "listar":
                 include("listar-usuario.php");
+                break;
+            case "salvar":
+                include("salvar-usuario.php");
                 break;
             default:
                 print "<h1>Bem-vindos</h1>";
