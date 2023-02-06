@@ -5,3 +5,5 @@
     define('BASE', 'cadastro');
 
     $conn = new MySQLi(HOST,USER,PASS,BASE);
+
+    ?>
